@@ -1,0 +1,31 @@
+{
+  "name": "testgrunt",
+  "version": "1.0.0",
+  "description": "test grunt stuff again",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scadick/gruntTest.git"
+  },
+  "keywords": [
+    "grunt",
+    "test",
+    "automacation"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scadick/gruntTest/issues"
+  },
+  "homepage": "https://github.com/scadick/gruntTest",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
